@@ -1,11 +1,4 @@
-# @Time    : 2018/12/4 14:57
-# @Email  : wangchengo@126.com
-# @File   : STMatrix.py
-# package version:
-#               python 3.6
-#               sklearn 0.20.0
-#               numpy 1.15.2
-#               tensorflow 1.5.0
+# Acknowledgement: This code is taken from https://github.com/TolicWang/DeepST
 import numpy as np
 import pandas as pd
 from .timestamp import string2timestamp
