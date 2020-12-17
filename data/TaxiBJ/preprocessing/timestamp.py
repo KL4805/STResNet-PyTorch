@@ -1,11 +1,4 @@
-# @Time    : 2018/12/5 9:28
-# @Email  : wangchengo@126.com
-# @File   : timestamp.py
-# package version:
-#               python 3.6
-#               sklearn 0.20.0
-#               numpy 1.15.2
-#               tensorflow 1.5.0
+# Acknowledgement: This code is taken from https://github.com/TolicWang/DeepST
 
 import time
 import pandas as pd
