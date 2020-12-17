@@ -8,7 +8,6 @@ from datetime import datetime
 
 def string2timestamp(strings, T=48):
     """
-    将字符串类型的时间转换成时间戳格式
     :param strings:
     :param T:
     :return:
@@ -31,13 +30,12 @@ def string2timestamp(strings, T=48):
 
 def timestamp2vec(timestamps):
     """
-    将时间戳转换为表示星期几和工作日的向量
     :param timestamps:
     :return:
     exampel:
     [b'2018120505', b'2018120106']
-    #[[0 0 1 0 0 0 0 1]  当天是星期三，且为工作日
-     [0 0 0 0 0 1 0 0]]  当天是星期六，且为休息日
+    #[[0 0 1 0 0 0 0 1]  
+     [0 0 0 0 0 1 0 0]]  
 
     """
     # tm_wday range [0, 6], Monday is 0
